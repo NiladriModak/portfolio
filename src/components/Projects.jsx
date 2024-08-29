@@ -50,6 +50,14 @@ function Projects() {
               >
                 {project.title}
               </a>
+              <a
+                className="border border-neutral-500 p-2 mb-3"
+                href={project.github}
+                target="__blank"
+                rel="noopener noreferrer"
+              >
+                Github
+              </a>
               <p className="w-full mb-9 ">{project.description}</p>
               <div className="flex flex-wrap">
                 <p className="p-2">TECHSTACK - </p>
