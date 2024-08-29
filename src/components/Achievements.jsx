@@ -14,7 +14,7 @@ function Achievements() {
         <ul className=" w-full justify-center items-center">
           <li className="flex flex-col lg:justify-center lg:items-center lg:flex-row mb-6 lg:mb-2 flex-wrap mb-2 w-full">
             <motion.a
-              initial={{ x: -300, opacity: 0 }}
+              initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, delay: 0.3 }}
               href="https://leetcode.com/u/niladrimodak2001/"
@@ -28,7 +28,7 @@ function Achievements() {
               Leetcode
             </motion.a>
             <motion.h2
-              initial={{ x: 200, opacity: 0 }}
+              initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, delay: 0.3 }}
               className="w-full lg:w-2/4 mx-2 text-neutral-50 tracking-tight"
@@ -40,7 +40,7 @@ function Achievements() {
 
           <li className="flex flex-col lg:justify-center lg:items-center lg:flex-row mb-6 lg:mb-2 mb-2 flex-wrap w-full">
             <motion.a
-              initial={{ x: -300, opacity: 0 }}
+              initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, delay: 0.6 }}
               href="https://codeforces.com/profile/niladrimodak2001"
@@ -54,7 +54,7 @@ function Achievements() {
               Codeforces
             </motion.a>
             <motion.h2
-              initial={{ x: 200, opacity: 0 }}
+              initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, delay: 0.6 }}
               className="w-2/4 mx-2 text-neutral-50 tracking-tight"
@@ -66,7 +66,7 @@ function Achievements() {
 
           <li className="flex flex-col lg:justify-center lg:items-center lg:flex-row mb-6 lg:mb-2 mb-2 flex-wrap w-full">
             <motion.a
-              initial={{ x: -300, opacity: 0 }}
+              initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, delay: 1 }}
               href="https://www.codechef.com/users/niladrimodak18"
@@ -80,7 +80,7 @@ function Achievements() {
               Codechef
             </motion.a>
             <motion.h2
-              initial={{ x: 200, opacity: 0 }}
+              initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, delay: 1 }}
               className="w-full lg:w-2/4 mx-2 text-neutral-50 tracking-tight"
@@ -92,7 +92,7 @@ function Achievements() {
 
           <li className="flex flex-col lg:justify-center lg:items-center lg:flex-row mb-6 lg:mb-2 mb-2 flex-wrap w-full">
             <motion.a
-              initial={{ x: -300, opacity: 0 }}
+              initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, delay: 1.8 }}
               href="https://www.hackerrank.com/certificates/f06d0d8a6f1d"
@@ -106,7 +106,7 @@ function Achievements() {
               Certified
             </motion.a>
             <motion.h2
-              initial={{ x: 200, opacity: 0 }}
+              initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, delay: 1.8 }}
               className="w-full lg:w-2/4 mx-2 text-neutral-50 tracking-tight"
@@ -120,7 +120,7 @@ function Achievements() {
 
           <li className="flex flex-col lg:justify-center lg:items-center lg:flex-row mb-6 lg:mb-2  mb-2 flex-wrap w-full">
             <motion.a
-              initial={{ x: -300, opacity: 0 }}
+              initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, delay: 2.4 }}
               href="https://www.hackerrank.com/certificates/748f22600850"
@@ -134,7 +134,7 @@ function Achievements() {
               Certified
             </motion.a>
             <motion.h2
-              initial={{ x: 200, opacity: 0 }}
+              initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, delay: 2.4 }}
               className="w-full lg:w-2/4 mx-2 text-neutral-50 tracking-tight"
@@ -146,7 +146,7 @@ function Achievements() {
 
           <li className="flex flex-col lg:justify-center lg:items-center lg:flex-row mb-6 lg:mb-2 mb-2 flex-wrap w-full">
             <motion.a
-              initial={{ x: -300, opacity: 0 }}
+              initial={{ x: -100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, delay: 3 }}
               href="https://drive.google.com/file/d/1PXlQj2cVi_MG3ySVP6xvRhFZLSFt6nqh/view?usp=drive_link"
@@ -160,7 +160,7 @@ function Achievements() {
               Certified
             </motion.a>
             <motion.h2
-              initial={{ x: 200, opacity: 0 }}
+              initial={{ x: 100, opacity: 0 }}
               whileInView={{ x: 0, opacity: 1 }}
               transition={{ duration: 2, delay: 3 }}
               className="w-full lg:w-2/4 mx-2 text-neutral-50 tracking-tight"

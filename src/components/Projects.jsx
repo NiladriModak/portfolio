@@ -22,7 +22,7 @@ function Projects() {
         {PROJECTS.map((project, index) => (
           <div
             key={index}
-            className="mb-8 h-fit border border-neutral-600 p-4  flex flex-wrap w-full"
+            className="mb-8 h-fit border border-neutral-600 p-3  flex flex-wrap w-full"
           >
             <motion.div
               variants={container(0.5, -200)}
@@ -33,25 +33,25 @@ function Projects() {
               <img
                 src={project.image}
                 alt={project.title}
-                className="mb-6 rounded w-full h-full"
+                className="mb-6 rounded w-full h-full "
               />
             </motion.div>
             <motion.div
               variants={container(0.5, 200)}
               initial="hidden"
               whileInView="visible"
-              className="w-full flex flex-col  lg:mr-10 lg:px-20 items-center lg:items-start max-w-3xl"
+              className="w-full flex flex-col flex-wrap  lg:mr-10 lg:px-20 items-center lg:items-start max-w-xl"
             >
               <a
                 href={project.link}
                 rel="noopener noreferrer"
                 target="__blank"
-                className="w-full mb-9 text-2xl"
+                className="w-full mb-9 lg:text-2xl text-xl text-wrap"
               >
                 {project.title}
               </a>
               <a
-                className="border border-neutral-500 p-2 mb-3"
+                className="border border-neutral-500 p-2 sm:text-2/4 mb-3 text-wrap"
                 href={project.github}
                 target="__blank"
                 rel="noopener noreferrer"
