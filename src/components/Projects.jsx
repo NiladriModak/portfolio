@@ -42,7 +42,14 @@ function Projects() {
               whileInView="visible"
               className="w-full flex flex-col  lg:mr-10 lg:px-20 items-center lg:items-start max-w-3xl"
             >
-              <h1 className="w-full mb-9 text-2xl">{project.title}</h1>
+              <a
+                href={project.link}
+                rel="noopener noreferrer"
+                target="__blank"
+                className="w-full mb-9 text-2xl"
+              >
+                {project.title}
+              </a>
               <p className="w-full mb-9 ">{project.description}</p>
               <div className="flex flex-wrap">
                 <p className="p-2">TECHSTACK - </p>

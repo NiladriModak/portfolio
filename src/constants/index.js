@@ -11,6 +11,7 @@ export const PROJECTS = [
   {
     title: "Educate India (Education at just Rs 20)",
     image: project1,
+    link: "https://educate-india-jade.vercel.app/",
     description:
       "Education Platform :Implemented a comprehensive education platform for weaker sections of society having financial problems aiming to provide education at just Rs 20.Student Developed features for student registration, course learnings, and progress tracking using Prisma for efficient database management.– Interactive Lessons:Built interactive lessons and quizzes using React.js to enhance the learning experience.",
     technologies: [
@@ -26,6 +27,7 @@ export const PROJECTS = [
   {
     title: "Advertising Hub",
     image: project2,
+    link: "https://ad-hub-frontend-wine.vercel.app/",
     description:
       "An application for advertising different products and take review from the viewers and providing them the correct location from where they can buy those displayed products.",
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB", "Express Js"],
@@ -33,6 +35,7 @@ export const PROJECTS = [
   {
     title: "EConnect",
     image: project3,
+    link: "https://chat-front-mu.vercel.app/login",
     description:
       "A chatting application using web socket. Which enables to chat with users in real time",
     technologies: ["WebSockets", "React", "Node.js", "MongoDB", "Express Js"],
@@ -40,6 +43,7 @@ export const PROJECTS = [
   {
     title: "Hisab Rakkho",
     image: project4,
+    link: "https://hisab-rakho-frontend.vercel.app/#/Login",
     description:
       "A platform for maintaing the inventory of a business along with integration of making bills.The dues to the manufacturers are also stored",
     technologies: ["React", "Node.js", "MongoDB", "Express Js"],
