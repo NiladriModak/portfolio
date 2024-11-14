@@ -56,7 +56,7 @@ function Navbar() {
 
         <Tooltip className="w-1/2" id="leetcode-tooltip" />
         <a
-          href="https://drive.google.com/file/d/1p6dEaZKfCirr19FVUI8HOxmGOuDUNwkg/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1pdas3pSjQfB_1MmfR1URQ8HzvhZBDDAK/view?usp=sharing"
           rel="noopener noreferrer"
           target="__blank"
           className="border border-neutral-50 p-2 rounded-md hover:bg-white hover:text-neutral-950"
